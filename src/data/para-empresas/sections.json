@@ -1,0 +1,262 @@
+[
+  {
+    "context": [
+      "/empresas",
+      "/empresas/multi",
+      "/empresas/internet",
+      "/empresas/tv-e-streaming"
+    ],
+    "title": "Claro Multi Friday",
+    "subtitle": "Escolha o Multi que mais combina com você.",
+    "tabs": [
+      {
+        "title": "",
+        "cards": [
+          {
+            "ribbon": "Mais vendido",
+            "title": "Claro Multi: Internet + TV",
+            "subtitle": "Claro Internet Residencial",
+            "headline": "600 Mega",
+            "details": [
+              {
+                "title": "Claro TV + Box",
+                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
+                "defaultInfo": [
+                  "Mais de 190 canais",
+                  "Claro Box TV",
+                  "Gravação de até 200 horas",
+                  "App Claro TV"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 114,90",
+            "priceDescription": "mês",
+            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
+            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Mais vendido",
+            "title": "Claro Multi: Internet + TV",
+            "subtitle": "Claro Internet Residencial",
+            "headline": "600 Mega",
+            "details": [
+              {
+                "title": "Claro TV + Box",
+                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
+                "defaultInfo": [
+                  "Mais de 190 canais",
+                  "Claro Box TV",
+                  "Gravação de até 200 horas",
+                  "App Claro TV"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 114,90",
+            "priceDescription": "mês",
+            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
+            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Mais vendido",
+            "title": "Claro Multi: Internet + TV",
+            "subtitle": "Claro Internet Residencial",
+            "headline": "600 Mega",
+            "details": [
+              {
+                "title": "Claro TV + Box",
+                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
+                "defaultInfo": [
+                  "Mais de 190 canais",
+                  "Claro Box TV",
+                  "Gravação de até 200 horas",
+                  "App Claro TV"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 114,90",
+            "priceDescription": "mês",
+            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
+            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Mais vendido",
+            "title": "Claro Multi: Internet + TV",
+            "subtitle": "Claro Internet Residencial",
+            "headline": "600 Mega",
+            "details": [
+              {
+                "title": "Claro TV + Box",
+                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
+                "defaultInfo": [
+                  "Mais de 190 canais",
+                  "Claro Box TV",
+                  "Gravação de até 200 horas",
+                  "App Claro TV"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 114,90",
+            "priceDescription": "mês",
+            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
+            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": ["/empresas"],
+    "title": "Claro Multi Friday: Fibra, Celular, TV & Streamings",
+    "subtitle": "A combinação do Wi-Fi e 5G mais rápidos do Brasil com os melhores streamings, juntos em um único plano.",
+    "tabs": [
+      {
+        "title": "",
+        "cards": [
+          {
+            "ribbon": "Mais vendido",
+            "title": "Claro Multi: Internet + TV",
+            "subtitle": "Claro Internet Residencial",
+            "headline": "600 Mega",
+            "details": [
+              {
+                "title": "Claro TV + Box",
+                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
+                "defaultInfo": [
+                  "Mais de 190 canais",
+                  "Claro Box TV",
+                  "Gravação de até 200 horas",
+                  "App Claro TV"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 114,90",
+            "priceDescription": "mês",
+            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
+            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Mais vendido",
+            "title": "Claro Multi: Internet + TV",
+            "subtitle": "Claro Internet Residencial",
+            "headline": "600 Mega",
+            "details": [
+              {
+                "title": "Claro TV + Box",
+                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
+                "defaultInfo": [
+                  "Mais de 190 canais",
+                  "Claro Box TV",
+                  "Gravação de até 200 horas",
+                  "App Claro TV"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 114,90",
+            "priceDescription": "mês",
+            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
+            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Mais vendido",
+            "title": "Claro Multi: Internet + TV",
+            "subtitle": "Claro Internet Residencial",
+            "headline": "600 Mega",
+            "details": [
+              {
+                "title": "Claro TV + Box",
+                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
+                "defaultInfo": [
+                  "Mais de 190 canais",
+                  "Claro Box TV",
+                  "Gravação de até 200 horas",
+                  "App Claro TV"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 114,90",
+            "priceDescription": "mês",
+            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
+            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          }
+        ]
+      }
+    ]
+  }
+]
