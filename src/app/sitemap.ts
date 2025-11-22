@@ -3,8 +3,10 @@ import menuParaEmpresas from "@/data/para-empresas/menu.json";
 import menuParaVc from "@/data/para-vc/menu.json";
 import type { MetadataRoute } from 'next';
 
+const linksFromFiles = [...menuParaVc, ...menuParaEmpresas] as Array<{ url: string }>;
+
 const urlsFromMenu = [
-  [...menuParaVc, ...menuParaEmpresas].filter(item => item.url !== "/").map(item => ({
+  linksFromFiles.filter(item => item.url !== "/").map(item => ({
     url: `${SITE_URL}${item.url}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,

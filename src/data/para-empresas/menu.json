@@ -1,18 +1,1 @@
-[
-  {
-    "label": "Home",
-    "url": "/empresas"
-  },
-  {
-    "label": "Multi",
-    "url": "/empresas/multi"
-  },
-  {
-    "label": "Internet",
-    "url": "/empresas/internet"
-  },
-  {
-    "label": "TV & Streaming",
-    "url": "/empresas/tv-e-streaming"
-  }
-]
+[]

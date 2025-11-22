@@ -1,147 +1,94 @@
 [
   {
-    "context": [
-      "/empresas",
-      "/empresas/multi",
-      "/empresas/internet",
-      "/empresas/tv-e-streaming"
-    ],
-    "title": "Claro Multi Friday",
-    "subtitle": "Escolha o Multi que mais combina com você.",
+    "context": ["/empresas"],
+    "title": "Internet Claro Empresas - Fibra de Alta Performance para Seu Negócio",
+    "subtitle": "Planos de 400 Mega a 1 Giga com Wi-Fi Plus, modem empresarial e suporte dedicado para sua empresa.",
     "tabs": [
       {
         "title": "",
         "cards": [
           {
-            "ribbon": "Mais vendido",
-            "title": "Claro Multi: Internet + TV",
-            "subtitle": "Claro Internet Residencial",
-            "headline": "600 Mega",
+            "ribbon": "Essencial",
+            "title": "400M Empresas",
+            "subtitle": "",
+            "headline": "Fibra 400M",
             "details": [
               {
-                "title": "Claro TV + Box",
-                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
+                "title": "Benefícios",
+                "strongInfo": [],
                 "defaultInfo": [
-                  "Mais de 190 canais",
-                  "Claro Box TV",
-                  "Gravação de até 200 horas",
-                  "App Claro TV"
+                  "Wi-Fi Plus",
+                  "Antivírus",
+                  "Suporte empresarial"
                 ],
-                "imageInfo": [
-                  "claro-tvmais",
-                  "facebook",
-                  "globoplay",
-                  "instagram",
-                  "netflix",
-                  "tik-tok",
-                  "x",
-                  "youtube"
-                ]
+                "imageInfo": []
               }
             ],
-            "price": "R$ 114,90",
+            "price": "R$ 59,90",
             "priceDescription": "mês",
-            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
-            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "priceDetails": "A promoção é válida por 6 meses, após esse período o valor passa a ser R$ 79,90/mês.",
+            "whatsappLink": "#",
             "onlineLink": "https://www.claro.com.br/contratar-multi"
           },
           {
-            "ribbon": "Mais vendido",
-            "title": "Claro Multi: Internet + TV",
-            "subtitle": "Claro Internet Residencial",
-            "headline": "600 Mega",
+            "ribbon": "Mais Vendido",
+            "title": "600M Empresas",
+            "subtitle": "",
+            "headline": "Fibra 600M",
             "details": [
               {
-                "title": "Claro TV + Box",
-                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
+                "title": "Benefícios",
+                "strongInfo": [],
                 "defaultInfo": [
-                  "Mais de 190 canais",
-                  "Claro Box TV",
-                  "Gravação de até 200 horas",
-                  "App Claro TV"
+                  "Wi-Fi Plus",
+                  "Antivírus",
+                  "Suporte empresarial"
                 ],
-                "imageInfo": [
-                  "claro-tvmais",
-                  "facebook",
-                  "globoplay",
-                  "instagram",
-                  "netflix",
-                  "tik-tok",
-                  "x",
-                  "youtube"
-                ]
+                "imageInfo": []
               }
             ],
-            "price": "R$ 114,90",
+            "price": "R$ 59,90",
             "priceDescription": "mês",
-            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
-            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "priceDetails": "A promoção é válida por 3 meses, após esse período o valor passa a ser R$ 99,90/mês.",
+            "whatsappLink": "#",
             "onlineLink": "https://www.claro.com.br/contratar-multi"
           },
           {
-            "ribbon": "Mais vendido",
-            "title": "Claro Multi: Internet + TV",
-            "subtitle": "Claro Internet Residencial",
-            "headline": "600 Mega",
+            "ribbon": "Performance",
+            "title": "800M Empresas",
+            "subtitle": "",
+            "headline": "Fibra 800M",
             "details": [
               {
-                "title": "Claro TV + Box",
-                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
-                "defaultInfo": [
-                  "Mais de 190 canais",
-                  "Claro Box TV",
-                  "Gravação de até 200 horas",
-                  "App Claro TV"
-                ],
-                "imageInfo": [
-                  "claro-tvmais",
-                  "facebook",
-                  "globoplay",
-                  "instagram",
-                  "netflix",
-                  "tik-tok",
-                  "x",
-                  "youtube"
-                ]
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Wi-Fi Plus", "Antivírus"],
+                "imageInfo": []
               }
             ],
-            "price": "R$ 114,90",
+            "price": "R$ 99,90",
             "priceDescription": "mês",
-            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
-            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "priceDetails": "O valor passará a ser R$ 109,90/mês após o período promocional.",
+            "whatsappLink": "#",
             "onlineLink": "https://www.claro.com.br/contratar-multi"
           },
           {
-            "ribbon": "Mais vendido",
-            "title": "Claro Multi: Internet + TV",
-            "subtitle": "Claro Internet Residencial",
-            "headline": "600 Mega",
+            "ribbon": "Ultra Velocidade",
+            "title": "1 Giga Empresas",
+            "subtitle": "",
+            "headline": "Fibra 1G",
             "details": [
               {
-                "title": "Claro TV + Box",
-                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
-                "defaultInfo": [
-                  "Mais de 190 canais",
-                  "Claro Box TV",
-                  "Gravação de até 200 horas",
-                  "App Claro TV"
-                ],
-                "imageInfo": [
-                  "claro-tvmais",
-                  "facebook",
-                  "globoplay",
-                  "instagram",
-                  "netflix",
-                  "tik-tok",
-                  "x",
-                  "youtube"
-                ]
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Wi-Fi Plus", "Antivírus", "Ponto Ultra"],
+                "imageInfo": []
               }
             ],
-            "price": "R$ 114,90",
+            "price": "R$ 199,90",
             "priceDescription": "mês",
-            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
-            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "priceDetails": "",
+            "whatsappLink": "#",
             "onlineLink": "https://www.claro.com.br/contratar-multi"
           }
         ]
@@ -150,109 +97,262 @@
   },
   {
     "context": ["/empresas"],
-    "title": "Claro Multi Friday: Fibra, Celular, TV & Streamings",
-    "subtitle": "A combinação do Wi-Fi e 5G mais rápidos do Brasil com os melhores streamings, juntos em um único plano.",
+    "title": "Claro Empresas: Internet Fibra + Telefone Fixo Ilimitado",
+    "subtitle": "Combine a fibra Claro com Fixo Brasil Ilimitado ou Fixo Mundo para ligações para mais de 35 países.",
     "tabs": [
       {
         "title": "",
         "cards": [
           {
-            "ribbon": "Mais vendido",
-            "title": "Claro Multi: Internet + TV",
-            "subtitle": "Claro Internet Residencial",
-            "headline": "600 Mega",
+            "ribbon": "Essencial",
+            "title": "400M + Fixo Brasil",
+            "subtitle": "",
+            "headline": "400M Empresas + Fixo Brasil",
             "details": [
               {
-                "title": "Claro TV + Box",
-                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
-                "defaultInfo": [
-                  "Mais de 190 canais",
-                  "Claro Box TV",
-                  "Gravação de até 200 horas",
-                  "App Claro TV"
-                ],
-                "imageInfo": [
-                  "claro-tvmais",
-                  "facebook",
-                  "globoplay",
-                  "instagram",
-                  "netflix",
-                  "tik-tok",
-                  "x",
-                  "youtube"
-                ]
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Internet + ligações ilimitadas no Brasil"],
+                "imageInfo": []
               }
             ],
-            "price": "R$ 114,90",
+            "price": "R$ 89,90",
             "priceDescription": "mês",
-            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
-            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "priceDetails": "A promoção é válida por 6 meses, após esse período o valor passa a ser R$ 109,90/mês.",
+            "whatsappLink": "#",
             "onlineLink": "https://www.claro.com.br/contratar-multi"
           },
           {
-            "ribbon": "Mais vendido",
-            "title": "Claro Multi: Internet + TV",
-            "subtitle": "Claro Internet Residencial",
-            "headline": "600 Mega",
+            "ribbon": "Mais Vendido",
+            "title": "600M + Fixo Brasil",
+            "subtitle": "",
+            "headline": "600M Empresas + Fixo Brasil",
             "details": [
               {
-                "title": "Claro TV + Box",
-                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
-                "defaultInfo": [
-                  "Mais de 190 canais",
-                  "Claro Box TV",
-                  "Gravação de até 200 horas",
-                  "App Claro TV"
-                ],
-                "imageInfo": [
-                  "claro-tvmais",
-                  "facebook",
-                  "globoplay",
-                  "instagram",
-                  "netflix",
-                  "tik-tok",
-                  "x",
-                  "youtube"
-                ]
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Internet + ligações ilimitadas no Brasil"],
+                "imageInfo": []
               }
             ],
-            "price": "R$ 114,90",
+            "price": "R$ 59,90",
             "priceDescription": "mês",
-            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
-            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "priceDetails": "A promoção é válida por 3 meses, após esse período o valor passa a ser R$ 129,90/mês.",
+            "whatsappLink": "#",
             "onlineLink": "https://www.claro.com.br/contratar-multi"
           },
           {
-            "ribbon": "Mais vendido",
-            "title": "Claro Multi: Internet + TV",
-            "subtitle": "Claro Internet Residencial",
-            "headline": "600 Mega",
+            "ribbon": "Internacional",
+            "title": "400M + Fixo Mundo",
+            "subtitle": "",
+            "headline": "400M Empresas + Fixo Mundo",
             "details": [
               {
-                "title": "Claro TV + Box",
-                "strongInfo": ["+ Globoplay", "+ Paramount+", "+ Claro video"],
-                "defaultInfo": [
-                  "Mais de 190 canais",
-                  "Claro Box TV",
-                  "Gravação de até 200 horas",
-                  "App Claro TV"
-                ],
-                "imageInfo": [
-                  "claro-tvmais",
-                  "facebook",
-                  "globoplay",
-                  "instagram",
-                  "netflix",
-                  "tik-tok",
-                  "x",
-                  "youtube"
-                ]
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Ligações para +35 países"],
+                "imageInfo": []
               }
             ],
-            "price": "R$ 114,90",
+            "price": "R$ 109,90",
             "priceDescription": "mês",
-            "priceDetails": "com pagamento no boleto bancário ou no débito e fatura digital.",
-            "whatsappLink": "https://wa.me/551145653929?text=%5BProtocolo%20de%20atendimento%3A%200000202511%20-%20N%C3%A3o%20apague%20essa%20mensagem%2C%20ela%20identifica%20seu%20atendimento%5D.%20%3E%3E%3E%20Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20planos",
+            "priceDetails": "A promoção é válida por 6 meses, após esse período o valor passa a ser R$ 129,90/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Internacional Plus",
+            "title": "600M + Fixo Mundo",
+            "subtitle": "",
+            "headline": "600M Empresas + Fixo Mundo",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Ligações para +35 países"],
+                "imageInfo": []
+              }
+            ],
+            "price": "R$ 109,90",
+            "priceDescription": "mês",
+            "priceDetails": "A promoção é válida por 3 meses, após esse período o valor passa a ser R$ 149,90/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": ["/empresas"],
+    "title": "Combos Claro Empresas – Internet + TV + Fixo + Móvel",
+    "subtitle": "Monte ou escolha combos prontos com fibra de até 1 Giga, TV 4K, telefone fixo e linhas móveis de até 120GB.",
+    "tabs": [
+      {
+        "title": "",
+        "cards": [
+          {
+            "ribbon": "Econômico",
+            "title": "600M + Fixo + 61GB",
+            "subtitle": "",
+            "headline": "600M Empresas + Fixo Brasil + 61GB",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Internet + Fixo ilimitado + 61GB"],
+                "imageInfo": []
+              }
+            ],
+            "price": "R$ 129,89",
+            "priceDescription": "mês",
+            "priceDetails": "A promoção é válida por 3 meses, após esse período o valor passa a ser R$ 169,89/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Completo",
+            "title": "800M + TV HD + Fixo",
+            "subtitle": "",
+            "headline": "800M Empresas + TV Compacto HD + Fixo Brasil",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Internet + TV HD + Fixo"],
+                "imageInfo": []
+              }
+            ],
+            "price": "R$ 239,80",
+            "priceDescription": "mês",
+            "priceDetails": "Após o período promocional, o valor passa a ser R$ 249,80/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Produtividade",
+            "title": "600M + M365 + Site",
+            "subtitle": "",
+            "headline": "600M Empresas + Microsoft 365 + Site Pronto",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Produtividade + presença digital"],
+                "imageInfo": []
+              }
+            ],
+            "price": "R$ 130,03",
+            "priceDescription": "mês",
+            "priceDetails": "A promoção é válida por 3 meses, após esse período o valor passa a ser R$ 170,03/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Premium",
+            "title": "1G + TV 4K + Fixo + 120GB",
+            "subtitle": "",
+            "headline": "1G + TV 4K + Fixo Brasil + 120GB",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Internet premium + TV 4K + telefone + 120GB"],
+                "imageInfo": []
+              }
+            ],
+            "price": "R$ 414,79",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": ["/empresas"],
+    "title": "Serviços Adicionais Claro – Wi-Fi Mesh, M365, Antivírus e Mais",
+    "subtitle": "Complete seu plano com ferramentas essenciais como Wi-Fi Mesh, Microsoft 365, Site Pronto, Proteção Digital e Ponto Ultra.",
+    "tabs": [
+      {
+        "title": "",
+        "cards": [
+          {
+            "ribbon": "",
+            "title": "",
+            "subtitle": "",
+            "headline": "Wi-Fi Mesh",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["2 extensores Wi-Fi"],
+                "imageInfo": []
+              }
+            ],
+            "price": "R$ 30,00",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "",
+            "title": "",
+            "subtitle": "",
+            "headline": "Microsoft 365",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Office + e-mail corporativo"],
+                "imageInfo": []
+              }
+            ],
+            "price": "R$ 31,23",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "",
+            "title": "",
+            "subtitle": "",
+            "headline": "Site Pronto",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Site profissional + domínio.com"],
+                "imageInfo": []
+              }
+            ],
+            "price": "R$ 38,90",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "",
+            "title": "",
+            "subtitle": "",
+            "headline": "Proteção Digital",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Antivírus"],
+                "imageInfo": []
+              }
+            ],
+            "price": "R$ 9,90",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
             "onlineLink": "https://www.claro.com.br/contratar-multi"
           }
         ]

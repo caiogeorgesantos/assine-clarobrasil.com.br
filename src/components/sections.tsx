@@ -26,7 +26,7 @@ export function Sections({ pathname }: { pathname: string }) {
 
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-center items-stretch bg-white border border-[#dbdbdb] rounded-xl shadow-md p-6 md:p-10">
             {section.tabs[0].cards.map((cardData, id) => (
-              <Card key={id} data={cardData as CardType} />
+              <Card key={id} data={cardData as unknown as CardType} />
             ))}
           </div>
         </section>

@@ -24,14 +24,14 @@ export function Card({ data }: CardProps) {
   };
 
   return (
-    <div>
+    <div className="flex-1 self-stretch flex flex-col">
       {cardData.ribbon && (
-        <div className="bg-claro-level-1 text-white text-sm font-bold px-3 py-1 rounded-tl-xl rounded-br-xl inline-block mb-2">
+        <div className="bg-claro-level-1 text-white text-sm font-bold px-3 py-1 rounded-tl-xl rounded-br-xl inline-block mb-2 self-start">
           {cardData.ribbon}
         </div>
       )}
 
-      <div className="bg-white border border-[#dbdbdb] rounded-xl shadow-md w-full md:min-w-[296px] md:max-w-[372px] flex-1 p-4">
+      <div className="bg-white border border-[#dbdbdb] rounded-xl shadow-md w-full md:min-w-[296px] md:max-w-[372px] flex-1 p-4 flex flex-col">
         {cardData.title && (
           <h3 className="font-bold text-lg">{cardData.title}</h3>
         )}
@@ -48,7 +48,7 @@ export function Card({ data }: CardProps) {
         {cardData.details?.map((detail, index) => (
           <div
             key={index}
-            className="border-t border-gray-200 mt-4 pt-6 flex flex-col gap-3"
+            className="border-t border-gray-200 mt-4 pt-6 flex flex-col gap-3 flex-1"
           >
             {detail.title && (
               <h5 className="font-semibold text-base">{detail.title}</h5>

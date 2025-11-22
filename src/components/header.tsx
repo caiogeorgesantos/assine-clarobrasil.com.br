@@ -12,7 +12,8 @@ export function Header({
   type?: "default" | "empresa";
   pathname: string;
 }) {
-  const links = type === "empresa" ? menuParaEmpresas : menuParaVc;
+  const links: Array<{ url: string; label: string }> =
+    type === "empresa" ? menuParaEmpresas : menuParaVc;
 
   return (
     <header>
