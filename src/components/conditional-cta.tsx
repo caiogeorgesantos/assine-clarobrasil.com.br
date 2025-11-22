@@ -18,7 +18,7 @@ export function ConditionalCta() {
         rel="noopener noreferrer"
         className="block w-full"
       >
-        <button className="bg-whatsapp text-white text-center w-full py-2.5 px-6 font-medium rounded-full cursor-pointer flex flex-row items-center justify-center gap-2">
+        <button className="bg-whatsapp text-white text-shadow-sm text-center w-full py-2.5 px-6 font-medium rounded-full cursor-pointer flex flex-row items-center justify-center gap-2">
           <Image
             src="/icons/whatsapp.svg"
             alt="WhatsApp"

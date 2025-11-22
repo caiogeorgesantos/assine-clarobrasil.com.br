@@ -104,35 +104,35 @@ export function FloatingButton() {
               <span className="flex items-center justify-between border-b border-white/30 px-4 py-2">
                 <span className="flex items-center justify-start gap-2 text-left">
                   <span className="inline-block h-2 w-2 bg-[#7BF1A8] rounded-full"></span>
-                  <span className="text-white font-normal text-sm">
+                  <span className="text-white text-shadow-sm font-normal text-sm">
                     {onlineUsers} online agora
                   </span>
                 </span>
 
-                <span className="bg-[#E30613] text-white rounded-xl flex items-center justify-center font-bold text-xs h-7 border-2 border-white px-2 drop-shadow-lg">
+                <span className="bg-[#E30613] text-white text-shadow-sm rounded-xl flex items-center justify-center font-bold text-xs h-7 border-2 border-white px-2 drop-shadow-lg">
                   03:{minutes.toString().padStart(2, "0")}
                 </span>
               </span>
 
               <span className="flex flex-col justify-center px-4 py-1 h-20">
-                <span className="text-white text-lg font-bold text-left">
+                <span className="text-white text-shadow-sm text-lg font-bold text-left">
                   Desconto Especial
                 </span>
-                <span className="text-white text-sm font-medium text-left">
+                <span className="text-white text-shadow-sm text-sm font-medium text-left">
                   Planos Claro até 40% OFF
                 </span>
               </span>
 
               <span className="flex items-center justify-start gap-2 text-left border-t border-white/30 px-4 py-2">
                 <span className="inline-block h-2 w-2 bg-[#E30613] rounded-full"></span>
-                <span className="text-white font-normal text-sm">
+                <span className="text-white text-shadow-sm font-normal text-sm">
                   Oferta exclusiva hoje
                 </span>
               </span>
 
               {/* Botão para fechar a versão expandida */}
               <button
-                className="absolute -top-2 -left-2 text-white bg-black rounded-full w-5 h-5 flex items-center justify-center text-lg leading-none z-10 cursor-pointer"
+                className="absolute -top-2 -left-2 text-white text-shadow-sm bg-black rounded-full w-5 h-5 flex items-center justify-center text-lg leading-none z-10 cursor-pointer"
                 onClick={handleCloseExpandedButton}
                 title="Fechar"
               >
@@ -163,7 +163,7 @@ export function FloatingButton() {
             />
 
             {/* Badge de notificação mobile */}
-            <div className="absolute -top-3 -right-2 bg-[#E30613] text-white rounded-full flex items-center justify-center font-bold text-xs w-7 h-7 border-2 border-white z-20">
+            <div className="absolute -top-3 -right-2 bg-[#E30613] text-white text-shadow-sm rounded-full flex items-center justify-center font-bold text-xs w-7 h-7 border-2 border-white z-20">
               1
             </div>
           </button>
@@ -173,12 +173,12 @@ export function FloatingButton() {
             <div
               className={`relative bg-whatsapp rounded-2xl flex flex-col justify-center px-4 py-1 pr-20 -mr-14 drop-shadow-lg drop-shadow-whatsapp/50`}
             >
-              <span className="text-white text-base font-bold text-left">
+              <span className="text-white text-shadow-sm text-base font-bold text-left">
                 Desconto Especial
               </span>
               <span className="flex items-center justify-start gap-2 text-left">
                 <span className="inline-block h-2 w-2 bg-[#E30613] rounded-full"></span>
-                <span className="text-white font-normal text-sm">
+                <span className="text-white text-shadow-sm font-normal text-sm">
                   Oferta exclusiva hoje
                 </span>
               </span>
