@@ -15,4 +15,5 @@ export const amx = localFont({
   ],
   variable: '--font-amx',
   display: 'swap',
+  preload: true
 });

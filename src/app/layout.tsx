@@ -57,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body
         className={`${amx.variable} antialiased bg-[#f8f8f8] text-[#1f1d1d]`}
       >
