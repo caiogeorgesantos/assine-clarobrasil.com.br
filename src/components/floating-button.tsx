@@ -78,7 +78,7 @@ export function FloatingButton() {
           <button
             className={`${
               isExpanded ? "w-14 h-14" : "w-16 h-16"
-            } bg-[#25D366] transition-all duration-300 rounded-full flex items-center justify-center shadow-lg border-2 border-white drop-shadow-lg drop-shadow-[#25D366]/50 z-10 cursor-pointer`}
+            } bg-whatsapp transition-all duration-300 rounded-full flex items-center justify-center shadow-lg border-2 border-white drop-shadow-lg drop-shadow-whatsapp/50 z-10 cursor-pointer`}
             title="Fale conosco pelo WhatsApp"
           >
             {/* Ícone do WhatsApp */}
@@ -99,12 +99,12 @@ export function FloatingButton() {
           {/* Versão expandida */}
           {isExpanded && (
             <div
-              className={`relative bg-[#25D366] rounded-2xl flex flex-col justify-center drop-shadow-lg drop-shadow-[#25D366]/50 w-[277px] -mr-16 -mt-4`}
+              className={`relative bg-whatsapp rounded-2xl flex flex-col justify-center drop-shadow-lg drop-shadow-whatsapp/50 w-[277px] -mr-16 -mt-4`}
             >
               <span className="flex items-center justify-between border-b border-white/30 px-4 py-2">
                 <span className="flex items-center justify-start gap-2 text-left">
                   <span className="inline-block h-2 w-2 bg-[#7BF1A8] rounded-full"></span>
-                  <span className="text-white font-light text-sm">
+                  <span className="text-white font-normal text-sm">
                     {onlineUsers} online agora
                   </span>
                 </span>
@@ -125,7 +125,7 @@ export function FloatingButton() {
 
               <span className="flex items-center justify-start gap-2 text-left border-t border-white/30 px-4 py-2">
                 <span className="inline-block h-2 w-2 bg-[#E30613] rounded-full"></span>
-                <span className="text-white font-light text-sm">
+                <span className="text-white font-normal text-sm">
                   Oferta exclusiva hoje
                 </span>
               </span>
@@ -152,7 +152,7 @@ export function FloatingButton() {
           rel="noopener noreferrer"
           className="flex flex-row-reverse items-center justify-center"
         >
-          <button className="w-16 h-16 bg-[#25D366] transition-all duration-300 rounded-full flex items-center justify-center shadow-lg border-2 border-white drop-shadow-lg drop-shadow-[#25D366]/50 z-10">
+          <button className="w-16 h-16 bg-whatsapp transition-all duration-300 rounded-full flex items-center justify-center shadow-lg border-2 border-white drop-shadow-lg drop-shadow-whatsapp/50 z-10">
             {/* Ícone do WhatsApp */}
             <Image
               src="/icons/whatsapp.svg"
@@ -171,14 +171,14 @@ export function FloatingButton() {
           {/* Versão expandida */}
           {isExpanded && (
             <div
-              className={`relative bg-[#25D366] rounded-2xl flex flex-col justify-center px-4 py-1 pr-20 -mr-14 drop-shadow-lg drop-shadow-[#25D366]/50`}
+              className={`relative bg-whatsapp rounded-2xl flex flex-col justify-center px-4 py-1 pr-20 -mr-14 drop-shadow-lg drop-shadow-whatsapp/50`}
             >
               <span className="text-white text-base font-bold text-left">
                 Desconto Especial
               </span>
               <span className="flex items-center justify-start gap-2 text-left">
                 <span className="inline-block h-2 w-2 bg-[#E30613] rounded-full"></span>
-                <span className="text-white font-light text-sm">
+                <span className="text-white font-normal text-sm">
                   Oferta exclusiva hoje
                 </span>
               </span>
