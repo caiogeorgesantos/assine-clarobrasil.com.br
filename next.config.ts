@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
     cssChunking: true,
     inlineCss: true,
     useLightningcss: true,
-    viewTransition: true,
   },
 
   // 🖼️ Compressão e imagens otimizadas
