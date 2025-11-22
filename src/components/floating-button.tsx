@@ -1,6 +1,6 @@
 "use client";
 
-import { getWhatsappLink } from "@/lib/utils";
+import { getWhatsappLink, isWorkingHours } from "@/lib/utils";
 import { X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,9 +12,6 @@ export function FloatingButton() {
   const [isExpanded, setIsExpanded] = useState(true);
   const [minutes, setMinutes] = useState(44);
   const [onlineUsers, setOnlineUsers] = useState(244);
-
-  const now = new Date();
-  const hours = now.getHours();
 
   useEffect(() => {
     if (!isExpanded) return;
@@ -61,7 +58,7 @@ export function FloatingButton() {
     setIsExpanded(false);
   }
 
-  if (hours >= 18) {
+  if (!isWorkingHours()) {
     return null;
   }
 

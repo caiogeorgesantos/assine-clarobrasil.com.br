@@ -1,22 +1,11 @@
-import { getWhatsappLink } from "@/lib/utils";
+import { getWhatsappLink, isWorkingHours } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
 export async function ConditionalCta() {
   const whatsappLink = getWhatsappLink();
 
-  // Obtém hora respeitando o fuso do Brasil
-  const currentHour = Number(
-    new Intl.DateTimeFormat("pt-BR", {
-      timeZone: "America/Sao_Paulo",
-      hour: "numeric",
-      hour12: false,
-    }).format(new Date())
-  );
-
-  const isBefore18 = currentHour < 18;
-
-  if (isBefore18) {
+  if (isWorkingHours()) {
     return (
       <Link
         href={whatsappLink}

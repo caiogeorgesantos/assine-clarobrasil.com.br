@@ -31,3 +31,16 @@ export function openButtonInNewTab(event: React.MouseEvent<HTMLButtonElement>) {
   const url = getWhatsappLink();
   openInNewTab(url);
 }
+
+export function isWorkingHours() {
+  // Obtém hora respeitando o fuso do Brasil
+  const currentHour = Number(
+    new Intl.DateTimeFormat("pt-BR", {
+      timeZone: "America/Sao_Paulo",
+      hour: "numeric",
+      hour12: false,
+    }).format(new Date())
+  );
+
+  return currentHour >= 9 && currentHour < 18;
+}
