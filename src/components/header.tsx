@@ -1,7 +1,6 @@
 import { SITE_TITLE } from "@/constants";
 import menuParaEmpresas from "@/data/para-empresas/menu.json";
 import menuParaVc from "@/data/para-vc/menu.json";
-import { getWhatsappLink } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import { ConditionalCta } from "./conditional-cta";
@@ -14,8 +13,6 @@ export function Header({
   pathname: string;
 }) {
   const links = type === "empresa" ? menuParaEmpresas : menuParaVc;
-
-  const whatspAppLink = getWhatsappLink();
 
   return (
     <header>
