@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { Hire } from "@/components/hire";
 import { HowItWorks } from "@/components/how-it-works";
 import { NavProfile } from "@/components/nav-profile";
+import { Social } from "@/components/social";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TITLE, SITE_URL } from "@/constants";
 import { amx } from "@/fonts/amx";
 import type { Metadata } from "next";
@@ -61,6 +62,7 @@ export default function RootLayout({
         <Hire />
         <HowItWorks />
         <Benefits />
+        <Social />
         <Footer />
       </body>
     </html>
