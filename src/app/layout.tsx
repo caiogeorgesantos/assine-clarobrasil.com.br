@@ -2,6 +2,7 @@ import { Benefits } from "@/components/benefits";
 import { ClaroClient } from "@/components/claro-client";
 import { Faq } from "@/components/faq";
 import { FinalCTA } from "@/components/final-cta";
+import { FloatingButton } from "@/components/floating-button";
 import { Footer } from "@/components/footer";
 import { Hire } from "@/components/hire";
 import { HowItWorks } from "@/components/how-it-works";
@@ -69,6 +70,7 @@ export default function RootLayout({
         <Faq />
         <FinalCTA />
         <ClaroClient />
+        <FloatingButton />
         <Footer />
       </body>
     </html>
