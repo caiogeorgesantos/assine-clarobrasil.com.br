@@ -13,6 +13,9 @@ export function FloatingButton() {
   const [minutes, setMinutes] = useState(44);
   const [onlineUsers, setOnlineUsers] = useState(244);
 
+  const now = new Date();
+  const hours = now.getHours();
+
   useEffect(() => {
     if (!isExpanded) return;
 
@@ -56,6 +59,10 @@ export function FloatingButton() {
   function handleCloseExpandedButton(e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
     setIsExpanded(false);
+  }
+
+  if (hours >= 18) {
+    return null;
   }
 
   return (

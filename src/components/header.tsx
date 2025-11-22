@@ -4,6 +4,7 @@ import menuParaVc from "@/data/para-vc/menu.json";
 import { getWhatsappLink } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
+import { ConditionalCta } from "./conditional-cta";
 
 export function Header({
   type,
@@ -49,21 +50,7 @@ export function Header({
 
           {/* Fale pelo WhatsApp */}
           <div>
-            <Link
-              href={whatspAppLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-row items-center justify-center gap-2 bg-whatsapp text-white py-2.5 px-4 rounded-full"
-            >
-              <Image
-                src="/icons/whatsapp.svg"
-                alt="WhatsApp"
-                width={24}
-                height={24}
-                className="w-6 h-6"
-              />
-              <span className="-mb-1">Fale pelo WhatsApp</span>
-            </Link>
+            <ConditionalCta />
           </div>
         </div>
       </div>
