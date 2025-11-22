@@ -1,6 +1,7 @@
 import { SITE_TITLE } from "@/constants";
 import bannersParaEmpresas from "@/data/para-empresas/banners.json";
 import bannersParaVc from "@/data/para-vc/banners.json";
+import Image from "next/image";
 import Link from "next/link";
 
 export function Banner({ pathname }: { pathname: string }) {
@@ -29,12 +30,26 @@ export function Banner({ pathname }: { pathname: string }) {
   };
 
   return (
-    <Link href={url} target={target} aria-label={label}>
-      <picture>
-        <source srcSet={desktop} media="(min-width: 768px)" />
+    <section>
+      <Link href={url} target={target} aria-label={label}>
+        <Image
+          src={mobile}
+          alt={label}
+          title={label}
+          width={721}
+          height={817}
+          className="w-full block md:hidden"
+        />
 
-        <img src={mobile} alt={label} title={label} width="100%" />
-      </picture>
-    </Link>
+        <Image
+          src={desktop}
+          alt={label}
+          title={label}
+          width={1335}
+          height={292}
+          className="w-full hidden md:block"
+        />
+      </Link>
+    </section>
   );
 }
