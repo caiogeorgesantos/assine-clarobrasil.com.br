@@ -18,7 +18,7 @@ export function Sections({ pathname }: { pathname: string }) {
       {filteredSections.map((section) => (
         <section
           key={section.title}
-          className="container mx-auto py-4 md:py-0 mb-16"
+          className="container mx-auto py-4 md:py-0 mb-16 last:mb-0"
         >
           <h2 className="mb-4 font-bold text-4xl">{section.title}</h2>
 

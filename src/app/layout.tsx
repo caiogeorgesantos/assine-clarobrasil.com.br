@@ -72,8 +72,8 @@ export default function RootLayout({
           <FinalCTA />
           <ClaroClient />
         </main>
-        <FloatingButton />
         <Footer />
+        <FloatingButton />
       </body>
     </html>
   );
