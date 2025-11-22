@@ -1,3 +1,4 @@
+import { Benefits } from "@/components/benefits";
 import { Footer } from "@/components/footer";
 import { Hire } from "@/components/hire";
 import { HowItWorks } from "@/components/how-it-works";
@@ -59,6 +60,7 @@ export default function RootLayout({
         {children}
         <Hire />
         <HowItWorks />
+        <Benefits />
         <Footer />
       </body>
     </html>
