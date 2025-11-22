@@ -1,22 +1,25 @@
-"use client";
-
 import { getWhatsappLink } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import { useMemo } from "react";
 
-export function ConditionalCta() {
-  const whatspAppLink = getWhatsappLink();
+export async function ConditionalCta() {
+  const whatsappLink = getWhatsappLink();
 
-  const currentHour = useMemo(() => {
-    const now = new Date();
-    return now.getHours();
-  }, []);
+  // Obtém hora respeitando o fuso do Brasil
+  const currentHour = Number(
+    new Intl.DateTimeFormat("pt-BR", {
+      timeZone: "America/Sao_Paulo",
+      hour: "numeric",
+      hour12: false,
+    }).format(new Date())
+  );
 
-  if (Number.isInteger(currentHour) && currentHour < 18) {
+  const isBefore18 = currentHour < 18;
+
+  if (isBefore18) {
     return (
       <Link
-        href={whatspAppLink}
+        href={whatsappLink}
         target="_blank"
         rel="noopener noreferrer"
         className="block w-full"
@@ -35,15 +38,11 @@ export function ConditionalCta() {
     );
   }
 
-  if (Number.isInteger(currentHour) && currentHour >= 18) {
-    return (
-      <Link href={"#"} rel="noopener noreferrer" className="block w-full">
-        <button className="bg-hire text-[#1f1d1d] text-center w-full py-2.5 px-6 font-medium rounded-full cursor-pointer flex flex-row items-center justify-center">
-          <span className="-mb-1">Assine online</span>
-        </button>
-      </Link>
-    );
-  }
-
-  return null;
+  return (
+    <Link href={"#"} rel="noopener noreferrer" className="block w-full">
+      <button className="bg-hire text-[#1f1d1d] text-center w-full py-2.5 px-6 font-medium rounded-full cursor-pointer flex flex-row items-center justify-center">
+        <span className="-mb-1">Assine online</span>
+      </button>
+    </Link>
+  );
 }
