@@ -1,4 +1,5 @@
 import { Benefits } from "@/components/benefits";
+import { Faq } from "@/components/faq";
 import { Footer } from "@/components/footer";
 import { Hire } from "@/components/hire";
 import { HowItWorks } from "@/components/how-it-works";
@@ -63,6 +64,7 @@ export default function RootLayout({
         <HowItWorks />
         <Benefits />
         <Social />
+        <Faq />
         <Footer />
       </body>
     </html>
