@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
     cssChunking: true,
     inlineCss: true,
     useLightningcss: true,
-    viewTransition: true,
   },
 
   // 🖼️ Compressão e imagens otimizadas
@@ -13,9 +12,6 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 60 * 60 * 24 * 30, // 30 dias
   },
-
-  // 📦 Melhor cache estático no Vercel
-  assetPrefix: undefined,
 };
 
 export default nextConfig;

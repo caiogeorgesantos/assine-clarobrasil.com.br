@@ -39,6 +39,8 @@ export function Banner({ pathname }: { pathname: string }) {
           width={721}
           height={817}
           className="w-full block md:hidden"
+          fetchPriority="high"
+          loading="eager"
         />
 
         <Image
@@ -48,6 +50,8 @@ export function Banner({ pathname }: { pathname: string }) {
           width={1335}
           height={292}
           className="w-full hidden md:block"
+          fetchPriority="high"
+          loading="eager"
         />
       </Link>
     </section>
