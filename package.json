@@ -9,10 +9,10 @@
     "lint": "eslint"
   },
   "browserslist": [
-    "defaults",
-    "not IE 11",
-    "not OperaMini all",
-    "maintained node versions"
+    "last 2 Chrome versions",
+    "last 2 Edge versions",
+    "last 2 Firefox versions",
+    "last 2 Safari major versions"
   ],
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.12",
