@@ -1,4 +1,5 @@
 import { Benefits } from "@/components/benefits";
+import { ClaroClient } from "@/components/claro-client";
 import { Faq } from "@/components/faq";
 import { FinalCTA } from "@/components/final-cta";
 import { Footer } from "@/components/footer";
@@ -67,6 +68,7 @@ export default function RootLayout({
         <Social />
         <Faq />
         <FinalCTA />
+        <ClaroClient />
         <Footer />
       </body>
     </html>
