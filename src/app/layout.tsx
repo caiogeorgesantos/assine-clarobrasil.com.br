@@ -1,4 +1,6 @@
 import { Footer } from "@/components/footer";
+import { Hire } from "@/components/hire";
+import { HowItWorks } from "@/components/how-it-works";
 import { NavProfile } from "@/components/nav-profile";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TITLE, SITE_URL } from "@/constants";
 import { amx } from "@/fonts/amx";
@@ -55,6 +57,8 @@ export default function RootLayout({
       >
         <NavProfile />
         {children}
+        <Hire />
+        <HowItWorks />
         <Footer />
       </body>
     </html>
