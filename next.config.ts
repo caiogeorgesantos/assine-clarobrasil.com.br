@@ -2,7 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   experimental: {
-    cssChunking: true, // default
+    cssChunking: true,
+    inlineCss: true,
+    useLightningcss: true,
+    viewTransition: true,
   },
 
   // 🖼️ Compressão e imagens otimizadas
