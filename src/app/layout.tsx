@@ -1,5 +1,6 @@
 import { Benefits } from "@/components/benefits";
 import { Faq } from "@/components/faq";
+import { FinalCTA } from "@/components/final-cta";
 import { Footer } from "@/components/footer";
 import { Hire } from "@/components/hire";
 import { HowItWorks } from "@/components/how-it-works";
@@ -65,6 +66,7 @@ export default function RootLayout({
         <Benefits />
         <Social />
         <Faq />
+        <FinalCTA />
         <Footer />
       </body>
     </html>
