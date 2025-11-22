@@ -62,14 +62,16 @@ export default function RootLayout({
         className={`${amx.variable} antialiased bg-[#f8f8f8] text-[#1f1d1d]`}
       >
         <NavProfile />
-        {children}
-        <Hire />
-        <HowItWorks />
-        <Benefits />
-        <Social />
-        <Faq />
-        <FinalCTA />
-        <ClaroClient />
+        <main>
+          {children}
+          <Hire />
+          <HowItWorks />
+          <Benefits />
+          <Social />
+          <Faq />
+          <FinalCTA />
+          <ClaroClient />
+        </main>
         <FloatingButton />
         <Footer />
       </body>
