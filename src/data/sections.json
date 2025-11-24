@@ -1,5 +1,653 @@
 [
   {
+    "context": ["/"],
+    "title": "Planos Claro Fibra - Internet de Alta Velocidade para Sua Casa",
+    "subtitle": "Navegue com estabilidade e escolha entre 400 Mega, 600 Mega, 800 Mega ou 1 Giga com Wi-Fi Plus e instalação rápida.",
+    "tabs": [
+      {
+        "title": "",
+        "cards": [
+          {
+            "ribbon": "Econômico",
+            "title": "400 Mega",
+            "subtitle": "",
+            "headline": "400 Mb",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Wi-Fi Plus", "Modem", "Antivírus"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 59,90",
+            "priceDescription": "mês",
+            "priceDetails": "A promoção é válida por 6 meses, após esse período o valor passa a ser R$ 79,90/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Mais Vendido",
+            "title": "600 Mega",
+            "subtitle": "",
+            "headline": "600 Mb",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Wi-Fi Plus", "Modem", "Antivírus"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 59,90",
+            "priceDescription": "mês",
+            "priceDetails": "A promoção é válida por 3 meses, após esse período o valor passa a ser R$ 99,90/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Black Friday",
+            "title": "800 Mega",
+            "subtitle": "",
+            "headline": "800 Mb",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Wi-Fi Plus", "Modem", "Antivírus"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 99,90",
+            "priceDescription": "mês",
+            "priceDetails": "Após o período promocional, o valor passa a ser R$ 109,90/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Ultra Velocidade",
+            "title": "1 Giga",
+            "subtitle": "",
+            "headline": "1000 Mb",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": [
+                  "Wi-Fi Plus",
+                  "Modem",
+                  "Antivírus",
+                  "Ponto Ultra"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 199,90",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": ["/"],
+    "title": "Claro TV+ – Planos de TV para Sua Casa com Canais HD e 4K",
+    "subtitle": "Assine Claro TV+ em planos Compacto HD ou 4K e adicione pontos extras para assistir em qualquer TV da sua casa.",
+    "tabs": [
+      {
+        "title": "",
+        "cards": [
+          {
+            "ribbon": "Essencial",
+            "title": "",
+            "subtitle": "",
+            "headline": "Claro TV+ Compacto HD",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["190 canais", "Claro TV+", "App Claro TV"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 84,90",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Premium",
+            "title": "",
+            "subtitle": "",
+            "headline": "Claro TV+ 4K",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["4K/HD", "+190 canais", "gravação 200h"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 144,90",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Adicional",
+            "title": "",
+            "subtitle": "",
+            "headline": "Ponto Extra HD",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Ponto adicional HD em qualquer TV"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 29,90",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Adicional",
+            "title": "",
+            "subtitle": "",
+            "headline": "Ponto Extra 4K",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["Ponto adicional 4K para conteúdos Ultra HD"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 39,90",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": ["/"],
+    "title": "Claro Fibra + Claro TV+: Assine Internet e TV no Mesmo Combo",
+    "subtitle": "Combos com 600 Mega e Claro TV+ Box, Globoplay, Paramount+ e mais de 190 canais em HD e 4K.",
+    "tabs": [
+      {
+        "title": "",
+        "cards": [
+          {
+            "ribbon": "Essencial",
+            "title": "400M + TV Compacto HD",
+            "subtitle": "",
+            "headline": "Fibra 400M + TV Compacto HD",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["190 canais", "Claro Box TV", "Wi-Fi Plus"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 144,80",
+            "priceDescription": "mês",
+            "priceDetails": "A promoção é válida por 6 meses, após esse período o valor passa a ser R$ 164,80/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Mais Vendido",
+            "title": "600M + TV Compacto HD",
+            "subtitle": "",
+            "headline": "Fibra 600M + TV Compacto HD",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["190 canais", "Claro Box TV", "Wi-Fi Plus"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 144,80",
+            "priceDescription": "mês",
+            "priceDetails": "A promoção é válida por 3 meses, após esse período o valor passa a ser R$ 184,80/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Premium",
+            "title": "800M + TV 4K",
+            "subtitle": "",
+            "headline": "Fibra 800M + TV 4K",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["TV 4K", "Claro Box TV", "canais HD/4K"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 244,80",
+            "priceDescription": "mês",
+            "priceDetails": "Após o período promocional, o valor passa a ser R$ 254,80/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Ultra Velocidade",
+            "title": "1 Giga + TV 4K",
+            "subtitle": "",
+            "headline": "Fibra 1G + TV 4K",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": [
+                  "TV 4K",
+                  "Claro Box TV",
+                  "canais HD/4K",
+                  "Ponto Ultra"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 344,80",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": ["/"],
+    "title": "Internet Claro Fibra + Celular Claro com Apps Ilimitados",
+    "subtitle": "Combos com 600 Mega e Claro TV+ Box, Globoplay, Paramount+ e mais de 190 canais em HD e 4K.",
+    "tabs": [
+      {
+        "title": "",
+        "cards": [
+          {
+            "ribbon": "Essencial",
+            "title": "400M + 61GB",
+            "subtitle": "",
+            "headline": "Fibra 400M + Móvel 61GB",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": [
+                  "Wi-Fi Plus",
+                  "61GB",
+                  "redes sociais",
+                  "WhatsApp ilimitado"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 99,89",
+            "priceDescription": "mês",
+            "priceDetails": "A promoção é válida por 6 meses, após esse período o valor passa a ser R$ 119,89/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Mais Vendido",
+            "title": "600M + 75GB",
+            "subtitle": "",
+            "headline": "Fibra 600M + Móvel 75GB",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": [
+                  "Wi-Fi Plus",
+                  "75GB",
+                  "redes sociais ilimitadas"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 109,89",
+            "priceDescription": "mês",
+            "priceDetails": "A promoção é válida por 3 meses, após esse período o valor passa a ser R$ 149,89/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Premium",
+            "title": "800M + 95GB",
+            "subtitle": "",
+            "headline": "Fibra 800M + Móvel 95GB",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": [
+                  "Wi-Fi Plus",
+                  "95GB",
+                  "redes sociais ilimitadas"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 159,89",
+            "priceDescription": "mês",
+            "priceDetails": "Após o período promocional, o valor passa a ser R$ 169,89/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Ultra Velocidade",
+            "title": "1 Giga + 120GB",
+            "subtitle": "",
+            "headline": "Fibra 1G + Móvel 120GB",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["1 Giga", "120GB", "WhatsApp ilimitado"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 269,89",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": ["/"],
+    "title": "Claro Multi – Internet + TV + Apps em um Único Combo",
+    "subtitle": "Assine 600 Mega com Claro Box TV, Globoplay, Paramount+ e franquias extras para apps de vídeo e redes sociais.",
+    "tabs": [
+      {
+        "title": "",
+        "cards": [
+          {
+            "ribbon": "Mais Vendido",
+            "title": "Multi 600M",
+            "subtitle": "",
+            "headline": "Fibra 600M + TV Box + Globoplay + Paramount+",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": [
+                  "190 canais",
+                  "Claro Box TV",
+                  "apps",
+                  "franquia extra"
+                ],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 114,90",
+            "priceDescription": "mês",
+            "priceDetails": "",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Essencial",
+            "title": "400M + TV Compacto HD",
+            "subtitle": "",
+            "headline": "Fibra 400M + TV Compacto HD",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["190 canais", "Claro Box TV", "Wi-Fi Plus"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 144,80",
+            "priceDescription": "mês",
+            "priceDetails": "A promoção é válida por 6 meses, após esse período o valor passa a ser R$ 164,80/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Complementar",
+            "title": "600M + TV Compacto HD",
+            "subtitle": "",
+            "headline": "Fibra 600M + TV Compacto HD",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["190 canais", "Claro Box TV", "Wi-Fi Plus"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 144,80",
+            "priceDescription": "mês",
+            "priceDetails": "A promoção é válida por 3 meses, após esse período o valor passa a ser R$ 184,80/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          },
+          {
+            "ribbon": "Premium",
+            "title": "800M + TV 4K",
+            "subtitle": "",
+            "headline": "Fibra 800M + TV 4K",
+            "details": [
+              {
+                "title": "Benefícios",
+                "strongInfo": [],
+                "defaultInfo": ["TV 4K", "Claro Box TV", "canais HD/4K"],
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
+              }
+            ],
+            "price": "R$ 244,80",
+            "priceDescription": "mês",
+            "priceDetails": "Após o período promocional, o valor passa a ser R$ 254,80/mês.",
+            "whatsappLink": "#",
+            "onlineLink": "https://www.claro.com.br/contratar-multi"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "context": ["/empresas"],
     "title": "Internet Claro Empresas - Fibra de Alta Performance para Seu Negócio",
     "subtitle": "Planos de 400 Mega a 1 Giga com Wi-Fi Plus, modem empresarial e suporte dedicado para sua empresa.",
@@ -21,7 +669,16 @@
                   "Antivírus",
                   "Suporte empresarial"
                 ],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 59,90",
@@ -44,7 +701,16 @@
                   "Antivírus",
                   "Suporte empresarial"
                 ],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 59,90",
@@ -63,7 +729,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Wi-Fi Plus", "Antivírus"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 99,90",
@@ -82,7 +757,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Wi-Fi Plus", "Antivírus", "Ponto Ultra"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 199,90",
@@ -113,7 +797,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Internet + ligações ilimitadas no Brasil"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 89,90",
@@ -132,7 +825,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Internet + ligações ilimitadas no Brasil"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 59,90",
@@ -151,7 +853,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Ligações para +35 países"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 109,90",
@@ -170,7 +881,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Ligações para +35 países"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 109,90",
@@ -201,7 +921,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Internet + Fixo ilimitado + 61GB"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 129,89",
@@ -220,7 +949,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Internet + TV HD + Fixo"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 239,80",
@@ -239,7 +977,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Produtividade + presença digital"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 130,03",
@@ -258,7 +1005,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Internet premium + TV 4K + telefone + 120GB"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 414,79",
@@ -289,7 +1045,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["2 extensores Wi-Fi"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 30,00",
@@ -308,7 +1073,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Office + e-mail corporativo"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 31,23",
@@ -327,7 +1101,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Site profissional + domínio.com"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 38,90",
@@ -346,7 +1129,16 @@
                 "title": "Benefícios",
                 "strongInfo": [],
                 "defaultInfo": ["Antivírus"],
-                "imageInfo": []
+                "imageInfo": [
+                  "claro-tvmais",
+                  "facebook",
+                  "globoplay",
+                  "instagram",
+                  "netflix",
+                  "tik-tok",
+                  "x",
+                  "youtube"
+                ]
               }
             ],
             "price": "R$ 9,90",
