@@ -2,17 +2,13 @@ import { Banner } from "@/components/banner";
 import { Header } from "@/components/header";
 import { Sections } from "@/components/sections";
 
-export default async function PageEmpresas({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
-  const pathname = `/empresas/${slug}`;
+export function DefaultPage({ pathname }: { pathname: string }) {
+  const isEmpresaPage = pathname.startsWith("/empresas");
+  const headerType = isEmpresaPage ? "empresa" : "default";
 
   return (
     <>
-      <Header pathname={pathname} type="empresa" />
+      <Header pathname={pathname} type={headerType} />
       <Banner pathname={pathname} />
       <Sections pathname={pathname} />
     </>

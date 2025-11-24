@@ -1,8 +1,6 @@
-import { Banner } from "@/components/banner";
-import { Header } from "@/components/header";
-import { Sections } from "@/components/sections";
+import { DefaultPage } from "@/components/default-page";
 
-export default async function PageEmpresas({
+export default async function PageL2({
   params,
 }: {
   params: Promise<{ slug: string }>;
@@ -10,11 +8,5 @@ export default async function PageEmpresas({
   const { slug } = await params;
   const pathname = `/${slug}`;
 
-  return (
-    <>
-      <Header pathname={pathname} />
-      <Banner pathname={pathname} />
-      <Sections pathname={pathname} />
-    </>
-  );
+  return <DefaultPage pathname={pathname} />;
 }
