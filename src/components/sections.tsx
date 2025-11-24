@@ -1,11 +1,10 @@
 import { Card as CardType } from "@/@types/card";
+import { Sections as SectionsType } from "@/@types/section";
 import { Card } from "@/components/card";
-import sectionsParaEmpresas from "@/data/para-empresas/sections.json";
-import sectionsParaVc from "@/data/para-vc/sections.json";
+import sections from "@/data/sections.json";
 
 export function Sections({ pathname }: { pathname: string }) {
-  const allSections = [...sectionsParaVc, ...sectionsParaEmpresas];
-  const filteredSections = allSections.filter((sections) =>
+  const filteredSections = (sections as SectionsType).filter((sections) =>
     sections.context.includes(pathname)
   );
 

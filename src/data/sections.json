@@ -185,7 +185,7 @@
   },
   {
     "context": ["/empresas"],
-    "title": "Combos Claro Empresas – Internet + TV + Fixo + Móvel",
+    "title": "Combos Claro Empresas - Internet + TV + Fixo + Móvel",
     "subtitle": "Monte ou escolha combos prontos com fibra de até 1 Giga, TV 4K, telefone fixo e linhas móveis de até 120GB.",
     "tabs": [
       {
@@ -272,8 +272,8 @@
     ]
   },
   {
-    "context": ["/empresas"],
-    "title": "Serviços Adicionais Claro – Wi-Fi Mesh, M365, Antivírus e Mais",
+    "context": ["/", "/empresas"],
+    "title": "Serviços Adicionais Claro - Wi-Fi Mesh, M365, Antivírus e Mais",
     "subtitle": "Complete seu plano com ferramentas essenciais como Wi-Fi Mesh, Microsoft 365, Site Pronto, Proteção Digital e Ponto Ultra.",
     "tabs": [
       {
