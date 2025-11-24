@@ -1,12 +1,10 @@
+import { Menu } from '@/@types/menu';
 import { SITE_URL } from '@/constants';
-import menuParaEmpresas from "@/data/para-empresas/menu.json";
-import menuParaVc from "@/data/para-vc/menu.json";
+import menu from "@/data/menu.json";
 import type { MetadataRoute } from 'next';
 
-const linksFromFiles = [...menuParaVc, ...menuParaEmpresas] as Array<{ url: string }>;
-
 const urlsFromMenu = [
-  linksFromFiles.filter(item => item.url !== "/").map(item => ({
+  (menu as Menu).filter(item => item.url !== "/").map(item => ({
     url: `${SITE_URL}${item.url}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
