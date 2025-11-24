@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Home",
+    "url": "/",
+    "context": ["/"]
+  },
+  {
+    "label": "Multi",
+    "url": "/multi",
+    "context": ["/"]
+  },
+  {
+    "label": "Internet",
+    "url": "/internet",
+    "context": ["/empresas"]
+  },
+  {
+    "label": "TV & Streaming",
+    "url": "/tv-e-streaming",
+    "context": ["/"]
+  }
+]

@@ -1,19 +1,14 @@
+import { Menu } from "@/@types/menu";
 import { SITE_TITLE } from "@/constants";
-import menuParaEmpresas from "@/data/para-empresas/menu.json";
-import menuParaVc from "@/data/para-vc/menu.json";
+import menu from "@/data/menu.json";
 import Image from "next/image";
 import Link from "next/link";
 import { ConditionalCta } from "./conditional-cta";
 
-export function Header({
-  type,
-  pathname,
-}: {
-  type?: "default" | "empresa";
-  pathname: string;
-}) {
-  const links: Array<{ url: string; label: string }> =
-    type === "empresa" ? menuParaEmpresas : menuParaVc;
+export function Header({ pathname }: { pathname: string }) {
+  const links = (menu as Menu).filter((item) =>
+    item.context.some((start) => pathname.startsWith(start))
+  );
 
   return (
     <header>

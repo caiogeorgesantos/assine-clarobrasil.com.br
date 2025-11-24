@@ -3,12 +3,9 @@ import { Header } from "@/components/header";
 import { Sections } from "@/components/sections";
 
 export function DefaultPage({ pathname }: { pathname: string }) {
-  const isEmpresaPage = pathname.startsWith("/empresas");
-  const headerType = isEmpresaPage ? "empresa" : "default";
-
   return (
     <>
-      <Header pathname={pathname} type={headerType} />
+      <Header pathname={pathname} />
       <Banner pathname={pathname} />
       <Sections pathname={pathname} />
     </>
