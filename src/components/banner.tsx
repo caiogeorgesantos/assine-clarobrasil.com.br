@@ -1,6 +1,6 @@
+import { Banners } from "@/@types/banner";
 import { SITE_TITLE } from "@/constants";
-import bannersParaEmpresas from "@/data/para-empresas/banners.json";
-import bannersParaVc from "@/data/para-vc/banners.json";
+import banners from "@/data/banners.json";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,16 +10,7 @@ export function Banner({ pathname }: { pathname: string }) {
     mobile: "/banners/default-mobile.webp",
   };
 
-  const banners: {
-    pathname: string;
-    desktop: string;
-    mobile: string;
-    label: string;
-    url: string;
-    target: string;
-  }[] = [...bannersParaVc, ...bannersParaEmpresas];
-
-  const { desktop, mobile, label, url, target } = banners.find(
+  const { desktop, mobile, label, url, target } = (banners as Banners).find(
     (b) => b.pathname === pathname
   ) || {
     desktop: defaultBanners.desktop,

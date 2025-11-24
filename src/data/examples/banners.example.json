@@ -1,0 +1,10 @@
+[
+  {
+    "pathname": "/",
+    "desktop": "/banners/default-desktop.webp",
+    "mobile": "/banners/default-mobile.webp",
+    "label": "",
+    "url": "/",
+    "target": "_self"
+  }
+]
