@@ -87,11 +87,12 @@ export function Footer() {
           <div className="space-y-4">
             <div className="mb-4">
               <Image
-                src="/claro-branca-p-500.webp"
+                src="/logo-claro.png"
                 alt=""
-                width={150}
-                height={48}
-                className="h-12 w-auto mx-auto md:mx-0"
+                className="h-9 w-auto mx-auto md:mx-0"
+                width={171}
+                height={37}
+                priority
               />
             </div>
             <p className="text-sm text-white/90 leading-relaxed">
@@ -162,11 +163,21 @@ export function Footer() {
 
         {/* Linha divisória */}
         <div className="border-t border-white/20 mt-8 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-4 md:space-y-0">
             <div className="text-sm text-white/80 text-center md:text-left">
-              &copy; 2025 Claro S.A. Todos os direitos reservados.
+              <p>
+                &copy; {new Date().getFullYear()} Seller Bit Serviços de
+                Teleatendimento LTDA{" "}
+              </p>
+              <div>CNPJ: 30.622.574/0001-62</div>
+              <address>
+                <div>
+                  Avenida Presidente Vargas, 00418, Pav. 20, Salas 2008 e 2009
+                </div>
+                <div>Centro, Rio de Janeiro - RJ, CEP 20071-000</div>
+              </address>
             </div>
-            <div className="flex flex-wrap justify-center md:justify-end gap-4 text-sm text-white/80">
+            <div className="flex flex-wrap items-start justify-start md:justify-end gap-4 text-sm text-white/80">
               <a
                 href="https://www.claro.com.br/privacidade/politica-de-privacidade"
                 target="_blank"
@@ -177,6 +188,14 @@ export function Footer() {
               </a>
             </div>
           </div>
+
+          <p className="text-sm text-white/80 text-center md:text-left mt-4">
+            Esta operação é realizada pela Seller Bit Serviços de
+            Teleatendimento LTDA, empresa parceira oficial e afiliada aos
+            programas autorizados da Claro Brasil. As ofertas, condições
+            comerciais e disponibilidade estão sujeitas à cobertura e regras
+            vigentes da Claro.
+          </p>
         </div>
       </div>
     </footer>

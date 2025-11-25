@@ -17,10 +17,10 @@ export function Header({ pathname }: { pathname: string }) {
           <Link href="/">
             <h1>
               <Image
-                src="/claro-branca-p-500.webp"
+                src="/logo-claro.png"
                 alt=""
-                width={106}
-                height={38}
+                width={171}
+                height={37}
                 priority
               />
               <span className="sr-only">{SITE_TITLE}</span>
