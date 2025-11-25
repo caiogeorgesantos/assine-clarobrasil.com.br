@@ -1,9 +1,9 @@
 import { Menu } from "@/@types/menu";
+import { ConditionalCta } from "@/components/conditional-cta";
 import { SITE_TITLE } from "@/constants";
 import menu from "@/data/menu.json";
 import Image from "next/image";
 import Link from "next/link";
-import { ConditionalCta } from "./conditional-cta";
 
 export function Header({ pathname }: { pathname: string }) {
   const links = (menu as Menu).filter((item) =>

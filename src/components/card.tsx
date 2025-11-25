@@ -1,7 +1,8 @@
 import { Card as CardType } from "@/@types/card";
+import { AssineCta } from "@/components/common/assine-cta";
+import { WhatsappCta } from "@/components/common/whatsapp-cta";
 import { getWhatsappLink } from "@/lib/utils";
 import Image from "next/image";
-import Link from "next/link";
 
 interface CardProps {
   data: CardType;
@@ -114,33 +115,8 @@ export function Card({ data }: CardProps) {
           )}
 
           <div className="flex flex-col items-center gap-2">
-            <Link
-              href={cardData.whatsappLink || "#"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full"
-            >
-              <button className="bg-whatsapp text-white text-shadow-sm text-center w-full py-2.5 px-6 font-medium rounded-full cursor-pointer flex flex-row items-center justify-center gap-2">
-                <Image
-                  src="/icons/whatsapp.svg"
-                  alt="WhatsApp"
-                  width={24}
-                  height={24}
-                  className="w-6 h-6"
-                />
-                <span className="-mb-1">Compre pelo WhatsApp</span>
-              </button>
-            </Link>
-
-            <Link
-              href={cardData.onlineLink || "#"}
-              rel="noopener noreferrer"
-              className="block w-full"
-            >
-              <button className="bg-hire text-center block w-full py-2.5 px-6 font-medium rounded-full cursor-pointer">
-                <span className="-mb-1">Assine online</span>
-              </button>
-            </Link>
+            <WhatsappCta href={cardData.whatsappLink} />
+            <AssineCta href={cardData.onlineLink} />
           </div>
         </div>
       </div>
