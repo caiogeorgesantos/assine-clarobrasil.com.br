@@ -1,5 +1,6 @@
 import { Menu } from "@/@types/menu";
-import { ConditionalCta } from "@/components/conditional-cta";
+import { HeaderConditionalCta } from "@/components/header-conditional-cta";
+import { HeaderMenuMobile } from "@/components/header-menu-mobile";
 import { SITE_TITLE } from "@/constants";
 import menu from "@/data/menu.json";
 import Image from "next/image";
@@ -13,21 +14,25 @@ export function Header({ pathname }: { pathname: string }) {
   return (
     <header>
       <div className="bg-[#1f1d1d] text-white">
-        <div className="container mx-auto py-4 px-4 md:px-0 flex flex-col md:flex-row gap-4 items-center md:justify-between">
-          <Link href="/">
-            <h1>
-              <Image
-                src="/logo-claro.png"
-                alt=""
-                width={171}
-                height={37}
-                priority
-              />
-              <span className="sr-only">{SITE_TITLE}</span>
-            </h1>
-          </Link>
+        <div className="container mx-auto py-4 px-0 flex flex-col md:flex-row gap-8 md:gap-4 items-center md:justify-between">
+          <div className="relative w-full md:w-auto flex items-center justify-center">
+            <Link href="/">
+              <h1>
+                <Image
+                  src="/logo-claro.png"
+                  alt=""
+                  width={171}
+                  height={37}
+                  priority
+                />
+                <span className="sr-only">{SITE_TITLE}</span>
+              </h1>
+            </Link>
 
-          <div className="flex flex-row gap-6">
+            <HeaderMenuMobile links={links} pathname={pathname} />
+          </div>
+
+          <div className="hidden md:flex flex-row gap-6">
             {links.map((item) => (
               <Link
                 key={item.url + item.label}
@@ -43,7 +48,7 @@ export function Header({ pathname }: { pathname: string }) {
 
           {/* Fale pelo WhatsApp */}
           <div>
-            <ConditionalCta />
+            <HeaderConditionalCta />
           </div>
         </div>
       </div>
