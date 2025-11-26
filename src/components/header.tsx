@@ -29,7 +29,9 @@ export function Header({ pathname }: { pathname: string }) {
               </h1>
             </Link>
 
-            <HeaderMenuMobile links={links} pathname={pathname} />
+            {links.length > 0 && (
+              <HeaderMenuMobile links={links} pathname={pathname} />
+            )}
           </div>
 
           <div className="hidden md:flex flex-row gap-6">
