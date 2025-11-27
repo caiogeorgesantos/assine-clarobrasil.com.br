@@ -44,8 +44,8 @@ export function Sections({ pathname }: { pathname: string }) {
 
             {/* Área das setas embaixo */}
             <div className="flex items-center justify-end gap-2 mt-4">
-              <CarouselPrevious className="static translate-y-0 w-12 h-12 rounded-md border shadow-sm" />
-              <CarouselNext className="static translate-y-0 w-12 h-12 rounded-md border shadow-sm" />
+              <CarouselPrevious className="static translate-y-0 w-12 h-12 rounded-md border shadow-sm bg-claro-level-1 text-white disabled:bg-gray-300 disabled:text-black" />
+              <CarouselNext className="static translate-y-0 w-12 h-12 rounded-md border shadow-sm bg-claro-level-1 text-white disabled:bg-gray-300 disabled:text-black" />
             </div>
           </Carousel>
         </section>
