@@ -27,7 +27,7 @@ export function Card({ data }: CardProps) {
   return (
     <div className="flex-1 self-stretch flex flex-col h-full">
       {cardData.ribbon && (
-        <div className="bg-claro-level-1 text-white text-sm font-bold px-3 py-1 rounded-tl-xl rounded-br-xl inline-block mb-2 self-start">
+        <div className="bg-black-level-1 text-white text-sm font-bold px-3 py-1 rounded-tl-xl rounded-br-xl inline-block mb-2 self-start">
           {cardData.ribbon}
         </div>
       )}
