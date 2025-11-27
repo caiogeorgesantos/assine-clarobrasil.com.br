@@ -13,7 +13,7 @@ export function Header({ pathname }: { pathname: string }) {
 
   return (
     <header>
-      <div className="bg-[#1f1d1d] text-white">
+      <div className="bg-black-level-1 text-white">
         <div className="container mx-auto py-4 px-0 flex flex-col md:flex-row gap-8 md:gap-4 items-center md:justify-between">
           <div className="relative w-full md:w-auto flex items-center justify-center">
             <Link href="/">

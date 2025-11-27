@@ -18,7 +18,7 @@ export function AssineCta({ ...props }: AssineCtaProps) {
     <Link href={href} target={target} rel={rel} className="block w-full">
       <button
         className={cn(
-          "bg-hire text-[#1f1d1d] text-center w-full py-2.5 px-6 font-medium rounded-full cursor-pointer flex flex-row items-center justify-center",
+          "bg-hire text-black-level-1 text-center w-full py-2.5 px-6 font-medium rounded-full cursor-pointer flex flex-row items-center justify-center",
           props.className
         )}
       >

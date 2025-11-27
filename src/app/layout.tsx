@@ -59,7 +59,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${amx.variable} antialiased bg-[#f8f8f8] text-[#1f1d1d]`}
+        className={`${amx.variable} antialiased bg-[#f8f8f8] text-black-level-1`}
       >
         <NavProfile />
         <main>
