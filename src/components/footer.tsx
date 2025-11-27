@@ -89,7 +89,7 @@ export function Footer() {
               <Image
                 src="/logo-claro.png"
                 alt=""
-                className="h-9 w-auto mx-auto md:mx-0"
+                className="h-9 w-auto"
                 width={171}
                 height={37}
                 priority
@@ -163,8 +163,8 @@ export function Footer() {
 
         {/* Linha divisória */}
         <div className="border-t border-white/20 mt-8 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-4 md:space-y-0">
-            <div className="text-sm text-white/80 text-center md:text-left">
+          <div className="flex flex-col md:flex-row justify-between items-start space-y-4 md:space-y-0">
+            <div className="text-sm text-white/80">
               <p>
                 &copy; {new Date().getFullYear()} Seller Bit Serviços de
                 Teleatendimento LTDA{" "}
@@ -189,7 +189,7 @@ export function Footer() {
             </div>
           </div>
 
-          <p className="text-sm text-white/80 text-center md:text-left mt-4">
+          <p className="text-sm text-white/80 text-left mt-4">
             Esta operação é realizada pela Seller Bit Serviços de
             Teleatendimento LTDA, empresa parceira oficial e afiliada aos
             programas autorizados da Claro Brasil. As ofertas, condições
