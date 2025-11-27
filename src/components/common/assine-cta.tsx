@@ -16,14 +16,14 @@ export function AssineCta({ ...props }: AssineCtaProps) {
 
   return (
     <Link href={href} target={target} rel={rel} className="block w-full">
-      <button
+      <span
         className={cn(
-          "bg-hire text-black-level-1 text-center w-full py-2.5 px-6 font-medium rounded-full cursor-pointer flex flex-row items-center justify-center",
+          "bg-hire text-black-level-1 text-center w-full min-w-36 h-10 py-2.5 px-6 font-medium rounded-full cursor-pointer flex flex-row items-center justify-center",
           props.className
         )}
       >
         <span className="-mb-1">{props.children ?? "Assine online"}</span>
-      </button>
+      </span>
     </Link>
   );
 }

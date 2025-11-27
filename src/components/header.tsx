@@ -14,8 +14,8 @@ export function Header({ pathname }: { pathname: string }) {
   return (
     <header>
       <div className="bg-black-level-1 text-white">
-        <div className="container mx-auto py-4 px-0 flex flex-col md:flex-row gap-8 md:gap-4 items-center md:justify-between">
-          <div className="relative w-full md:w-auto flex items-center justify-center">
+        <div className="container mx-auto py-4 px-2 lg:px-0 flex flex-row gap-8 lg:gap-4 items-center lg:justify-between">
+          <div className="relative w-full lg:w-auto flex flex-row-reverse items-center justify-end gap-1">
             <Link href="/">
               <h1>
                 <Image
@@ -23,6 +23,7 @@ export function Header({ pathname }: { pathname: string }) {
                   alt=""
                   width={171}
                   height={37}
+                  className="w-auto h-6 lg:h-9"
                   priority
                 />
                 <span className="sr-only">{SITE_TITLE}</span>
@@ -34,7 +35,7 @@ export function Header({ pathname }: { pathname: string }) {
             )}
           </div>
 
-          <div className="hidden md:flex flex-row gap-6">
+          <div className="hidden lg:flex flex-row gap-6">
             {links.map((item) => (
               <Link
                 key={item.url + item.label}
@@ -49,7 +50,7 @@ export function Header({ pathname }: { pathname: string }) {
           </div>
 
           {/* Fale pelo WhatsApp */}
-          <div>
+          <div className="flex-1 lg:flex-0">
             <HeaderConditionalCta />
           </div>
         </div>

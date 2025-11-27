@@ -24,7 +24,7 @@ export function WhatsappCta({ ...props }: WhatsappCtaProps) {
     >
       <span
         className={cn(
-          "bg-whatsapp text-white text-shadow-sm text-center w-full py-2.5 px-6 font-medium rounded-full cursor-pointer flex flex-row items-center justify-center gap-2",
+          "bg-whatsapp text-white text-shadow-sm text-center w-full min-w-[248px] h-10 py-2.5 px-6 font-medium rounded-full cursor-pointer flex flex-row items-center justify-center gap-2",
           props.className
         )}
       >

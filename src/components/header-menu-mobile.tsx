@@ -24,8 +24,8 @@ export function HeaderMenuMobile({
   pathname: string;
 }) {
   return (
-    <Drawer direction="right">
-      <DrawerTrigger className="md:hidden absolute right-1 h-full w-11 flex items-center justify-center">
+    <Drawer direction="left">
+      <DrawerTrigger className="lg:hidden h-full w-11 flex items-center justify-center">
         <Menu size={24} />
         <span className="sr-only">Menu</span>
       </DrawerTrigger>
