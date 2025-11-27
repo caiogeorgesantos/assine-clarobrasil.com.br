@@ -44,3 +44,10 @@ export function isWorkingHours() {
 
   return currentHour >= 9 && currentHour < 18;
 }
+
+export function getContextFromPathname(pathname: string) {
+  return {
+    isParaVoce: !pathname.startsWith("/empresas"),
+    isParaEmpresas: pathname.startsWith("/empresas"),
+  }
+}
