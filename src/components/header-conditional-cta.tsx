@@ -15,7 +15,12 @@ export function HeaderConditionalCta() {
   }, []);
 
   if (showWhatsAppCta) {
-    return <WhatsappCta />;
+    return (
+      <WhatsappCta className="min-w-[195px] lg:min-w-[260px]">
+        <span className="hidden lg:block">Compre pelo WhatsApp</span>
+        <span className="block lg:hidden">Fale pelo Whats</span>
+      </WhatsappCta>
+    );
   }
 
   if (showWhatsAppCta === false) {
