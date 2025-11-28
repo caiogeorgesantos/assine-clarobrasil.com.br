@@ -1,15 +1,7 @@
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { getWhatsappLink } from "@/lib/utils";
-import {
-  ArrowRight,
-  Headphones,
-  MessageCircle,
-  Package,
-  Zap,
-} from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
+import { Headphones, MessageCircle, Package, Zap } from "lucide-react";
+import { WhatsappCta } from "./common/whatsapp-cta";
 
 export function Benefits() {
   const whatsappLink = getWhatsappLink();
@@ -66,20 +58,10 @@ export function Benefits() {
         </div>
 
         {/* CTA abaixo dos benefícios */}
-        <div className="text-center mt-12">
-          <Link href={whatsappLink} target="_blank" rel="noopener noreferrer">
-            <Button className="bg-[#25D366] hover:bg-[#1ea952] text-white text-xl px-10 py-5 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 inline-flex items-center">
-              <Image
-                src="/icon-whatsapp-default.svg"
-                alt=""
-                width={20}
-                height={20}
-                className="w-5 h-5 mr-3"
-              />
-              Conhecer os planos Claro
-              <ArrowRight className="w-5 h-5 ml-3" />
-            </Button>
-          </Link>
+        <div className="text-center mt-12 max-w-xs mx-auto">
+          <WhatsappCta href={whatsappLink}>
+            Conhecer os planos Claro
+          </WhatsappCta>
         </div>
       </div>
     </section>
