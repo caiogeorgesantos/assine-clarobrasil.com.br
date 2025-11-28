@@ -34,10 +34,10 @@ export function Card({ data }: CardProps) {
 
       <div className="bg-white border border-[#dbdbdb] rounded-xl shadow-md w-full md:min-w-[296px] md:max-w-[372px] flex-1 p-4 flex flex-col">
         {cardData.title && (
-          <h3 className="font-bold text-lg">{cardData.title}</h3>
+          <div className="font-bold text-lg">{cardData.title}</div>
         )}
         {cardData.subtitle && (
-          <h4 className="font-bold text-base">{cardData.subtitle}</h4>
+          <div className="font-bold text-base">{cardData.subtitle}</div>
         )}
 
         {cardData.headline && (
@@ -52,7 +52,7 @@ export function Card({ data }: CardProps) {
             className="border-t border-gray-200 mt-4 pt-6 flex flex-col gap-3 flex-1"
           >
             {detail.title && (
-              <h5 className="font-semibold text-base">{detail.title}</h5>
+              <div className="font-semibold text-base">{detail.title}</div>
             )}
 
             {detail.strongInfo && detail?.strongInfo.length > 0 && (
