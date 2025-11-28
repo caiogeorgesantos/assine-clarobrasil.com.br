@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getContextFromPathname, getWhatsappLink } from "@/lib/utils";
 import {
   Building,
@@ -16,11 +17,23 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export function Hire() {
   const pathname = usePathname();
-  const { isParaVoce, isParaEmpresas } = getContextFromPathname(pathname);
   const whatsappLink = getWhatsappLink();
+
+  const getContextName = () => {
+    const { isParaEmpresas } = getContextFromPathname(pathname);
+    return isParaEmpresas ? "para-empresas" : "pra-voce";
+  };
+
+  const [defaultTab, setDefaultTab] = useState<string>(getContextName());
+
+  useEffect(() => {
+    setDefaultTab(getContextName());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
 
   const residentialServices = [
     {
@@ -177,13 +190,29 @@ export function Hire() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-16">
-          {/* Residencial */}
-          {isParaVoce && renderResidential()}
+        <Tabs
+          defaultValue={defaultTab}
+          value={defaultTab}
+          onValueChange={setDefaultTab}
+        >
+          <TabsList className="w-full border-b border-gray-300 rounded-none flex flex-row items-center justify-start  min-h-10">
+            <TabsTrigger
+              value="pra-voce"
+              className="text-base px-6 py-4 cursor-pointer grow-0 rounded-b-none min-h-10 font-bold"
+            >
+              Para Você
+            </TabsTrigger>
+            <TabsTrigger
+              value="para-empresas"
+              className="text-base px-6 py-4 cursor-pointer grow-0 rounded-b-none min-h-10 font-bold"
+            >
+              Para Empresas
+            </TabsTrigger>
+          </TabsList>
 
-          {/* Empresarial */}
-          {isParaEmpresas && renderBusiness()}
-        </div>
+          <TabsContent value="pra-voce">{renderResidential()}</TabsContent>
+          <TabsContent value="para-empresas">{renderBusiness()}</TabsContent>
+        </Tabs>
       </div>
     </section>
   );
